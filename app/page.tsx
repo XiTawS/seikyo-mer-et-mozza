@@ -92,10 +92,10 @@ function Concept() {
           <Fade>
             <div className="overflow-hidden">
               <EditableImage contentKey="home.concept.img1"
-                defaultSrc="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=800&q=80"
+                defaultSrc="https://res.cloudinary.com/dxcudyuno/image/upload/v1772840254/mer-et-mozza/fondateurs.jpg"
                 alt="Fruits de mer" width={800} height={600}
                 className="w-full aspect-[4/3] object-cover hover:scale-[1.03] transition-transform duration-700" />
-              <p className="text-[var(--color-text-muted)] text-xs mt-3 tracking-wide uppercase">Nos fruits de mer</p>
+              <p className="text-[var(--color-text-muted)] text-xs mt-3 tracking-wide uppercase">Stéphane & Yanneck</p>
             </div>
           </Fade>
           <Fade delay={0.1}>
@@ -209,7 +209,7 @@ function Carte() {
    ═══════════════════════════════════════════════ */
 function Gallery() {
   const photos = [
-    { key: "g1", src: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600&q=80", title: "Plateau huîtres" },
+    { key: "g1", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840254/mer-et-mozza/fondateurs.jpg", title: "Plateau huîtres" },
     { key: "g2", src: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80", title: "Pizza artisanale" },
     { key: "g3", src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80", title: "Sortie du four" },
     { key: "g4", src: "https://images.unsplash.com/photo-1590759668628-05b0fc34bb70?w=600&q=80", title: "Saumon fumé" },
@@ -336,7 +336,7 @@ export default function Home() {
     return (
       <div className="fixed inset-0 bg-[var(--color-bg-dark)] z-[99999] flex items-center justify-center">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center">
-          <h1 className="font-display text-4xl text-white mb-1">Mer <span className="text-[var(--color-terra)]">&</span> Mozza</h1>
+          <img src="https://res.cloudinary.com/dxcudyuno/image/upload/v1772840252/mer-et-mozza/logo.jpg" alt="Mer et Mozza" className="w-20 h-20 rounded-full mx-auto mb-3" />
           <p className="text-[var(--color-text-dim)] text-[10px] tracking-[0.4em] uppercase">Fruits de mer & pizzas</p>
           <div className="w-8 h-8 border border-[var(--color-teal)] border-t-transparent rounded-full animate-spin mx-auto mt-6" />
         </motion.div>
