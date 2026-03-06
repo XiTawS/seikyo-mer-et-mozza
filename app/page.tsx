@@ -31,7 +31,7 @@ function Hero() {
   return (
     <section className="relative h-screen overflow-hidden bg-[var(--color-bg-dark)]">
       <EditableImage contentKey="home.hero.bg"
-        defaultSrc="https://res.cloudinary.com/dxcudyuno/image/upload/v1772840454/mer-et-mozza/plateau-royal.jpg"
+        defaultSrc="https://res.cloudinary.com/dxcudyuno/image/upload/v1772840515/mer-et-mozza/hero.jpg"
         alt="Mer et Mozza" fill sizes="100vw" priority
         className="object-cover opacity-50" hideButton inputRef={ref} />
       {isAdmin && (
