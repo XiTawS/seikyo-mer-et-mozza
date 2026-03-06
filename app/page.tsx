@@ -209,8 +209,8 @@ function Carte() {
    ═══════════════════════════════════════════════ */
 function Gallery() {
   const photos = [
-    { key: "g1", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840254/mer-et-mozza/fondateurs.jpg", title: "Les fondateurs" },
-    { key: "g2", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840456/mer-et-mozza/pizza-burrata.jpg", title: "Pizza burrata" },
+    { key: "g1", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840632/mer-et-mozza/plateau-huitres.jpg", title: "Plateau fruits de mer" },
+    { key: "g2", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840630/mer-et-mozza/pizza-bacon.jpg", title: "Pizza bacon" },
     { key: "g3", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840451/mer-et-mozza/calzone.jpg", title: "Calzone" },
     { key: "g4", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840452/mer-et-mozza/soupe.jpg", title: "Soupe de poisson" },
     { key: "g5", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840457/mer-et-mozza/pizza-veggie.jpg", title: "Pizza végétarienne" },
