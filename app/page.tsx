@@ -31,7 +31,7 @@ function Hero() {
   return (
     <section className="relative h-screen overflow-hidden bg-[var(--color-bg-dark)]">
       <EditableImage contentKey="home.hero.bg"
-        defaultSrc="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=1920&q=80"
+        defaultSrc="https://res.cloudinary.com/dxcudyuno/image/upload/v1772840454/mer-et-mozza/plateau-royal.jpg"
         alt="Mer et Mozza" fill sizes="100vw" priority
         className="object-cover opacity-50" hideButton inputRef={ref} />
       {isAdmin && (
@@ -101,10 +101,10 @@ function Concept() {
           <Fade delay={0.1}>
             <div className="overflow-hidden md:mt-12">
               <EditableImage contentKey="home.concept.img2"
-                defaultSrc="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80"
+                defaultSrc="https://res.cloudinary.com/dxcudyuno/image/upload/v1772840456/mer-et-mozza/pizza-burrata.jpg"
                 alt="Pizzas artisanales" width={800} height={600}
                 className="w-full aspect-[4/3] object-cover hover:scale-[1.03] transition-transform duration-700" />
-              <p className="text-[var(--color-text-muted)] text-xs mt-3 tracking-wide uppercase">Nos pizzas artisanales</p>
+              <p className="text-[var(--color-text-muted)] text-xs mt-3 tracking-wide uppercase">Nos pizzas</p>
             </div>
           </Fade>
         </div>
@@ -209,12 +209,12 @@ function Carte() {
    ═══════════════════════════════════════════════ */
 function Gallery() {
   const photos = [
-    { key: "g1", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840254/mer-et-mozza/fondateurs.jpg", title: "Plateau huîtres" },
-    { key: "g2", src: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80", title: "Pizza artisanale" },
-    { key: "g3", src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80", title: "Sortie du four" },
-    { key: "g4", src: "https://images.unsplash.com/photo-1590759668628-05b0fc34bb70?w=600&q=80", title: "Saumon fumé" },
-    { key: "g5", src: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80", title: "Margherita" },
-    { key: "g6", src: "https://images.unsplash.com/photo-1606850246029-0c80b7ed4e2e?w=600&q=80", title: "Crevettes" },
+    { key: "g1", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840254/mer-et-mozza/fondateurs.jpg", title: "Les fondateurs" },
+    { key: "g2", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840456/mer-et-mozza/pizza-burrata.jpg", title: "Pizza burrata" },
+    { key: "g3", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840451/mer-et-mozza/calzone.jpg", title: "Calzone" },
+    { key: "g4", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840452/mer-et-mozza/soupe.jpg", title: "Soupe de poisson" },
+    { key: "g5", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840457/mer-et-mozza/pizza-veggie.jpg", title: "Pizza végétarienne" },
+    { key: "g6", src: "https://res.cloudinary.com/dxcudyuno/image/upload/v1772840454/mer-et-mozza/plateau-royal.jpg", title: "Plateau Royal" },
   ];
 
   return (
