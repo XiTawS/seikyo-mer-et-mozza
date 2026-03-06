@@ -71,7 +71,7 @@ function Hero() {
    ═══════════════════════════════════════════════ */
 function Concept() {
   return (
-    <section className="py-20 bg-[var(--color-bg)]">
+    <section id="histoire" className="py-20 bg-[var(--color-bg)]">
       <div className="max-w-6xl mx-auto px-6 md:px-14">
         {/* Grande citation / accroche */}
         <Fade>
@@ -218,7 +218,7 @@ function Gallery() {
   ];
 
   return (
-    <section className="py-16 bg-[var(--color-bg-warm)]">
+    <section id="galerie" className="py-16 bg-[var(--color-bg-warm)]">
       <div className="max-w-6xl mx-auto px-6 md:px-14 mb-8">
         <Fade>
           <EditableText contentKey="home.gallery.title" defaultValue="En images" tag="h2"

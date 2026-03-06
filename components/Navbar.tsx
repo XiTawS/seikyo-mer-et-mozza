@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { label: "Nos produits", href: "#produits" },
-  { label: "Pizzas", href: "#pizzas" },
-  { label: "Fruits de mer", href: "#mer" },
+  { label: "Notre histoire", href: "#histoire" },
+  { label: "La carte", href: "#carte" },
+  { label: "Galerie", href: "#galerie" },
   { label: "Contact", href: "#contact" },
 ];
 
