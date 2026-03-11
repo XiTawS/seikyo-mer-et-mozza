@@ -1,0 +1,12 @@
+{
+  "name": "Mer et Mozza — Fruits de mer & Pizzas artisanales",
+  "short_name": "Mer et Mozza",
+  "description": "Food truck de qualité à Chatuzange-le-Goubet. Plateaux fruits de mer frais, pizzas artisanales, à déguster sur place ou à emporter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1A8C7E",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }
+  ]
+}
